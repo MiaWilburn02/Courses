@@ -5,6 +5,6 @@ int main(void)
     double radius;
     printf("Enter radius:");
     scanf("%lf", &radius);
-    printf("volume is: %f\n\n", (4.0 / 3.0) * PI * (radius * radius * radius));
+    printf("volume is: %lf\n\n", (4.0 / 3.0) * PI * (radius * radius * radius));
     return 0;
 }
